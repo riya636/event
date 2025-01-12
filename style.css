@@ -1,0 +1,75 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #6DB3F2, #F2B6E6);
+    color: #333;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.header {
+    position: relative;
+}
+
+.banner {
+    display: block; /* Removes any gaps around the image */
+    width: 96vw; /* Full width of the viewport */
+    height: 75vh; /* Full height of the viewport */
+    object-fit: cover; /* Ensures the image covers the space without distortion */
+    
+}
+
+.content {
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #000;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.event-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.detail-item {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 1rem;
+}
+
+.icon {
+    font-size: 1.2rem;
+}
+
+.register-button {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.register-button:hover {
+    background-color: #d00000;
+}
